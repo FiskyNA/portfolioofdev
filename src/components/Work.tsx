@@ -8,31 +8,31 @@ const projects = [
     title: "NyayeSetu",
     category: "Supervisor of Laws (India)",
     tools: "React, Node.js",
-    image: "/images/Solidx.png",
+    image: import.meta.env.BASE_URL + "images/media__1774456179596.png",
   },
   {
     title: "NyayeSahayak",
     category: "Legal Assistant",
     tools: "Frontend, APIs",
-    image: "/images/radix.png",
+    image: import.meta.env.BASE_URL + "images/nyayesahayak_1774456153761.png",
   },
   {
     title: "Boomcall",
     category: "AI Call Agent",
     tools: "Full Stack, AI",
-    image: "/images/bond.png",
+    image: import.meta.env.BASE_URL + "images/boomcall_1774455838660.png",
   },
   {
     title: "StarMusic",
     category: "Music Application",
     tools: "React, Audio APIs",
-    image: "/images/sapphire.png",
+    image: import.meta.env.BASE_URL + "images/starmusic_1774456071353.png",
   },
   {
     title: "Algorma & More",
     category: "Web Platforms",
     tools: "Frontend, Backend",
-    image: "/images/Maxlife.png",
+    image: import.meta.env.BASE_URL + "images/algorma.svg",
   },
 ];
 
