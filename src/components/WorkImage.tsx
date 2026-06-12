@@ -11,13 +11,23 @@ interface Props {
 const WorkImage = (props: Props) => {
   const [isVideo, setIsVideo] = useState(false);
   const [video, setVideo] = useState("");
+  const blobUrlRef = useState<string | null>(null);
   const handleMouseEnter = async () => {
     if (props.video) {
       setIsVideo(true);
       const response = await fetch(`src/assets/${props.video}`);
       const blob = await response.blob();
       const blobUrl = URL.createObjectURL(blob);
+      blobUrlRef[0] = blobUrl;
       setVideo(blobUrl);
+    }
+  };
+
+  const handleMouseLeave = () => {
+    setIsVideo(false);
+    if (blobUrlRef[0]) {
+      URL.revokeObjectURL(blobUrlRef[0]);
+      blobUrlRef[0] = null;
     }
   };
 
@@ -27,7 +37,7 @@ const WorkImage = (props: Props) => {
         className="work-image-in"
         href={props.link}
         onMouseEnter={handleMouseEnter}
-        onMouseLeave={() => setIsVideo(false)}
+        onMouseLeave={handleMouseLeave}
         target="_blank"
         data-cursor={"disable"}
       >
