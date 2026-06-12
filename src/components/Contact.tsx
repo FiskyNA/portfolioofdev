@@ -17,7 +17,7 @@ const Contact = () => {
             <h4>Status</h4>
             <div className="status-container">
               <span className="status-dot"></span>
-              <p>Building AI at Boomcall</p>
+              <p>Working As Sr. Dev in BuildiO</p>
             </div>
           </div>
           <div className="contact-box">
@@ -52,7 +52,7 @@ const Contact = () => {
               Designed and Developed <br /> by <span>Dev Kumar</span>
             </h2>
             <h5>
-              <MdCopyright /> 2025
+              <MdCopyright /> 2026
             </h5>
           </div>
         </div>

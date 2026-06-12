@@ -25,6 +25,10 @@ const Landing = ({ children }: PropsWithChildren) => {
               <div className="landing-h2-info-1">Developer</div>
             </h2>
           </div>
+          <div className="scroll-indicator">
+            <div className="scroll-line"></div>
+            <span>Scroll</span>
+          </div>
         </div>
         {children}
       </div>

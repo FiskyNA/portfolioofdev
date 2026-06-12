@@ -15,6 +15,18 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
+                <h4>Founder</h4>
+                <h5>BuildiO</h5>
+              </div>
+              <h3>2026</h3>
+            </div>
+            <p>
+              Founded BuildiO — a tech-driven company building AI-powered products and full-stack platforms. Leading product development, architecture, and engineering of scalable SaaS solutions including hotel management systems and automation suites.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
                 <h4>Developer & Designer</h4>
                 <h5>Modmail / Krystu</h5>
               </div>
