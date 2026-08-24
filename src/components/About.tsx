@@ -6,7 +6,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Hi! I'm Dev Kumar, a 14-year-old Sr. Software Engineer, Developer, and Founder of BuildiO.
+          Hi! I'm Dev Kumar, a 24-year-old Sr. Software Engineer, Developer, and Founder of BuildiO.
           With a strong passion for technology and coding since a young age, I specialize
           in building robust web applications, AI integrations, and creative solutions.
         </p>
