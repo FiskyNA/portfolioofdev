@@ -16,7 +16,7 @@ const Landing = ({ children }: PropsWithChildren) => {
           </div>
           <div className="landing-info">
             <h3>A Full Stack</h3>
-            <h2 className="landing-info-h2" style={{ overflow: "hidden" }}>
+            <h2 className="landing-info-h2" style={{ overflow: "hidden", height: 56 }}>
               <div className="landing-h2-1">Developer</div>
               <div className="landing-h2-2">Engineer</div>
             </h2>
