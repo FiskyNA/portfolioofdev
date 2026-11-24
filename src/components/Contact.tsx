@@ -39,7 +39,7 @@ const Contact = () => {
               Discord <MdArrowOutward />
             </a>
             <a
-              href="https://www.instagram.com/maybeimdev/"
+              href="https://www.instagram.com/caverence/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
