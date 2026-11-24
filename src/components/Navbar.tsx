@@ -56,11 +56,11 @@ const Navbar = () => {
           DK
         </a>
         <a
-          href="mailto:kumar.dev495900@gmail.com"
+          href="mailto:spaminhalerformails@gmail.com"
           data-cursor="disable"
           className="hover-link"
         >
-          kumar.dev495900@gmail.com
+          spaminhalerformails@gmail.com
         </a>
         <ul>
           <li>
