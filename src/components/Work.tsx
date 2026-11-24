@@ -8,7 +8,7 @@ const projects = [
     title: "Hotel Booking Management",
     category: "Hotel Admin & WhatsApp Automation Suite",
     tools: "Full Stack, Twilio, Dashboard",
-    image: import.meta.env.BASE_URL + "images/media__1774456179596.png",
+    image: import.meta.env.BASE_URL + "images/hotel-admin.png",
   },
   {
     title: "NyayeSetu",
