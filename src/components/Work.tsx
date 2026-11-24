@@ -17,12 +17,6 @@ const projects = [
     image: import.meta.env.BASE_URL + "images/media__1774456179596.png",
   },
   {
-    title: "NyayeSahayak",
-    category: "Legal Assistant",
-    tools: "Frontend, APIs",
-    image: import.meta.env.BASE_URL + "images/nyayesahayak_1774456153761.png",
-  },
-  {
     title: "Boomcall",
     category: "AI Call Agent",
     tools: "Full Stack, AI",
