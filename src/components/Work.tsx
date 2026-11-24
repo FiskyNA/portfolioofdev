@@ -5,12 +5,6 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "BuildiO",
-    category: "AI-Powered SaaS Platform",
-    tools: "Full Stack, AI, SaaS",
-    image: import.meta.env.BASE_URL + "images/boomcall_1774455838660.png",
-  },
-  {
     title: "Hotel Booking Management",
     category: "Hotel Admin & WhatsApp Automation Suite",
     tools: "Full Stack, Twilio, Dashboard",
