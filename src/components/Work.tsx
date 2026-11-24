@@ -17,18 +17,6 @@ const projects = [
     image: import.meta.env.BASE_URL + "images/media__1774456179596.png",
   },
   {
-    title: "Boomcall",
-    category: "AI Call Agent",
-    tools: "Full Stack, AI",
-    image: import.meta.env.BASE_URL + "images/boomcall_1774455838660.png",
-  },
-  {
-    title: "StarMusic",
-    category: "Music Application",
-    tools: "React, Audio APIs",
-    image: import.meta.env.BASE_URL + "images/starmusic_1774456071353.png",
-  },
-  {
     title: "Algorma & More",
     category: "Web Platforms",
     tools: "Frontend, Backend",
