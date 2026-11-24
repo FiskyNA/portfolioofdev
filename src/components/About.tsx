@@ -6,9 +6,9 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Hi! I'm Dev Kumar, a 15-year-old software enthusiast. I'm obsessed with turning weird
-          ideas into working code — whether that's a weekend web project, an AI experiment, or
-          just figuring out why something won't render on Safari.
+          Hi! I'm Dev Kumar, a 15-year-old developer and software enthusiast. I'm obsessed with
+          turning weird ideas into working code — whether that's a weekend web project, an AI
+          experiment, or just figuring out why something won't render on Safari.
         </p>
         <p className="para" style={{ marginTop: "16px" }}>
           I started coding young and haven't stopped since. From legal-tech platforms like
