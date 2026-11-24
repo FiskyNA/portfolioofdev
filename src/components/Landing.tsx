@@ -20,10 +20,6 @@ const Landing = ({ children }: PropsWithChildren) => {
               <div className="landing-h2-1">Developer</div>
               <div className="landing-h2-2">Engineer</div>
             </h2>
-            <h2 style={{ overflow: "hidden" }}>
-              <div className="landing-h2-info">Engineer</div>
-              <div className="landing-h2-info-1">Developer</div>
-            </h2>
           </div>
           <div className="scroll-indicator">
             <div className="scroll-line"></div>
