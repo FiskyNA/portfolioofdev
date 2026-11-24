@@ -5,6 +5,12 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
+    title: "Festival Celebration",
+    category: "Celebration / Event App",
+    tools: "React, Animation, Canvas, Full Stack",
+    image: import.meta.env.BASE_URL + "images/festival-celebration.png",
+  },
+  {
     title: "Hotel Booking Management",
     category: "Hotel Admin & WhatsApp Automation Suite",
     tools: "Full Stack, Twilio, Dashboard",
