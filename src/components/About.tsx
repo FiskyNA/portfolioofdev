@@ -6,15 +6,16 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Hi! I'm Dev Kumar, a 15-year-old Sr. Software Engineer, Developer, and Founder of BuildiO.
-          With a strong passion for technology and coding since a young age, I specialize
-          in building robust web applications, AI integrations, and creative solutions.
+          Hi! I'm Dev Kumar, a 15-year-old software enthusiast. I'm obsessed with turning weird
+          ideas into working code — whether that's a weekend web project, an AI experiment, or
+          just figuring out why something won't render on Safari.
         </p>
         <p className="para" style={{ marginTop: "16px" }}>
-          I thrive on taking ideas from concept to production-ready deployments. From building
-          legal-tech platforms like NyayeSetu to AI-powered solutions at BuildiO, I love turning
-          complex problems into elegant, user-friendly products. When I'm not coding, you'll find
-          me exploring new frameworks, contributing to open source, and mentoring fellow developers.
+          I started coding young and haven't stopped since. From legal-tech platforms like
+          NyayeSetu to tinkering with Three.js characters and AI integrations, I love taking
+          messy concepts and turning them into something that actually works. When I'm not
+          debugging at midnight, you'll find me picking up new frameworks, digging into open
+          source, or breaking things just to learn how to fix them.
         </p>
       </div>
     </div>
